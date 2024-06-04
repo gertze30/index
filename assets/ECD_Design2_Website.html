@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Gertze ECD Design 2 Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Light grey background */
+        }
+        header {
+            background-color: #1976D2; /* Light blue background */
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #333; /* Dark grey for nav */
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            background-color: #fff; /* White background for sections */
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #1976D2; /* Light blue for footer */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Smart Home Security and Safety System</h1>
+    </header>
+
+    <nav>
+	<a href="#objective">Abstract</a> |
+        <a href="#objective">Objective</a> |
+        <a href="#literature-survey">Literature Survey</a> |
+        <a href="#design-activities">Design Activities</a> |
+	<a href="#schematic">Schematic Diagram</a>
+	<a href="#schematic">Finalized Project Package</a>|
+	<a href="#presentation">PowerPoint Presentation</a> |
+        <a href="#reports">Final Report</a> |
+        <a href="#bibliography">Bibliography</a> |
+        <a href="#video">Demonstration Video</a> |
+        <a href="#achievements">Achievements</a> |
+        <a href="#conclusion">Conclusion</a> |
+        
+    </nav>
+
+    <div class="container">
+
+
+
+<section id="Abstract" class="section">
+            <h2>Abstract</h2>
+            <p>This Website presents all relavent documents and information, in the design and implementation of an IoT-based smart security and safety system using an ESP32 microcontroller. The system incorporates a PIR motion 	sensor and a smoke detector to enhance home security and safety. Through the Blynk application, users can remotely monitor and control the system, receiving real-time notifications of motion or smoke detection. This project demonstrates the effective integration of IoT technology into home automation, providing both convenience and improved security.</p>
+        </section>
+
+        <section id="objective" class="section">
+            <h2>Objective</h2>
+            <p>• To use a PIR motion sensor to detect unwanted presence of a human in a specific area and to actuate the LED bulb.</p>
+            <p>• To use a smoke detector sensor to detect smoke in a specific room in a house and to actuate the fan.</p>
+            <p>• To implement an IoT system which will allow remote monitoring and control of the entire system using the Blynk cloud server.</p>
+            <p>• Seamless integration of all the system components.</p>
+        </section>
+
+        <section id="literature-survey" class="section">
+            <h2>Literature Survey</h2>
+            <p>The integration of smart devices into home security systems has been extensively studied and developed in recent years. According to Zhang et al. (2019), the use of IoT-based systems has significantly improved the efficiency and effectiveness of home security solutions. These systems leverage various sensors and communication protocols to provide real-time monitoring and control (Zhang et al., 2019).</p>
+            <p>PIR sensors have been widely used for motion detection in security systems due to their reliability and low power consumption (Gopal & John, 2020). Similarly, smoke detectors are critical components in fire safety systems, providing early warnings to prevent potential disasters (Smith & Brown, 2018). The combination of these sensors with microcontrollers like the ESP32 enhances the overall functionality and user experience (Lee & Park, 2017).</p>
+            <p>The Blynk platform has emerged as a popular choice for IoT projects due to its ease of use and robust features. Blynk allows for seamless integration of hardware with mobile applications, enabling users to receive notifications and control devices remotely (Johnson & Lee, 2021). This capability is particularly valuable in-home security systems where timely alerts and remote access are crucial.</p>
+        </section>
+
+        <section id="design-activities" class="section">
+            <h2>Design Activities</h2>
+            <p>- ESP32: Processes the PIR motion sensor and MQ2 smoke detector data and controls the Relays.</p>
+            <p>- Smoke detector Sensors: Detects smoke.</p>
+            <p>- PIR Motion Sensor: Detects motion.</p>
+            <p>- Power Supply: Provides stable voltage.</p>
+            <p>- PIR Sensor Actuator: A LED bulb 12V.</p>
+            <p>- Smoke Detector Actuator: 12V fan.</p>
+            <p>The project design included selecting appropriate sensors, configuring the ESP32 microcontroller, integrating the Blynk platform for notifications, and testing the system for reliability and effectiveness.</p>
+        </section>
+
+        <section id="schematic" class="section">
+            <h2>Schematic Diagram</h2>
+            <img src="assets/Schematic Diagram_bb.jpg" width="90%" height="600px">
+        </section>
+
+	
+
+
+	<section id="Finalized Project Package" class="section">
+            <h2>Finalized Project Package</h2>
+            <img src="assets/Package.jpg" width="30%" height="300px">
+	    <img src="assets/Package1.jpg" width="30%" height="300px">
+	    <img src="assets/Package2.jpg" width="30%" height="300px">
+
+
+
+	 </section>
+
+
+        <section id="presentation" class="section">
+            <h2>Presentation</h2>
+            <embed src="assets/Design2_ PowerPoint.pdf" type="application/pdf" width="100%" height="600px">
+	    <p><a href="assets/Design2_ PowerPoint.pptx" download>Download PowerPoint Presentation Including the Voice-over</a></p>
+        </section>
+
+        <section id="reports" class="section">
+            <h2>Project Report</h2>
+            <embed src="assets/Design2_Final Report.pdf" type="application/pdf" width="100%" height="600px">
+        </section>
+
+        <section id="bibliography" class="section">
+            <h2>Bibliography</h2>
+            <p>Johnson, R., & Lee, S. (2021). Implementing IoT projects with Blynk: A practical guide. IoT Journal, 8(3), 123-135.</p>
+            <p>Lee, D., & Park, J. (2017). Integration of ESP32 with home automation systems. Smart Home Technology, 10(1), 67-75.</p>
+            <p>Smith, A., & Brown, L. (2018). Advances in smoke detection technology for home safety. Fire Safety Journal, 22(4), 98-110.</p>
+            <p>Zhang, Y., Li, X., & Wang, Q. (2019). IoT-based home security systems: Current trends and future prospects. Journal of Internet of Things, 11(2), 145-160.</p>
+        </section>
+
+        <section id="video" class="section">
+            <h2>3-Minute Video Clip</h2>
+            <video width="100%" controls>
+                <source src="assets/ECD_Design_2_Project_Demonstration1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="achievements" class="section">
+            <h2>Achievements</h2>
+            <p>This project successfully integrated IoT technologies to create a functional security system using the ESP32 microcontroller, capable of detecting both motion and smoke. It achieved real-time notifications through the Blynk app, allowing for remote monitoring and control. Despite initial hardware challenges, reliable components were incorporated to ensure proper operation. The system was designed to function offline, providing continuous protection, and featured an intuitive user interface within the Blynk app. This cost-effective solution demonstrated scalability and educational value, showcasing the practical application of IoT in enhancing security systems.</p>
+        </section>
+
+        <section id="conclusion" class="section">
+            <h2>Conclusion</h2>
+            <p>This project effectively integrates a PIR motion sensor and a smoke detector with an ESP32 microcontroller, resulting in a comprehensive home security and safety system. Using the Blynk app, users can receive real-time notifications and remotely control the system, improving convenience and security. One change from the initial proposal was made, namely using a fan instead of a buzzer, because the fan draws more power compared to the buzzer. The system's ability to operate offline ensures dependability in a variety of situations. Future enhancements will concentrate on increasing sensor capabilities, implementing AI-based analytics, and improving user interfaces to enhance the system's functionality and user experience.</p>
+
+ <p> 
+
+
+
+
+
+.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Design Project Matthew Gertze. All rights reserved.</p>
+    </footer>
+</body>
+</html>
